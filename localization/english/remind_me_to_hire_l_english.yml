@@ -1,0 +1,15 @@
+﻿l_english:
+  action_can_hire_court_tutor: "Hire a Court Tutor"
+  action_can_hire_court_tutor_label: "You can hire a Court Tutor"
+  action_can_hire_court_tutor_desc: "You are not employing a Court Tutor as a [court_position|E], you should hire one since there are teenagers in your court who are about to complete their education."
+  action_can_hire_court_tutor_click: "#I Click to view#!"
+
+  action_can_hire_court_jester: "Hire a Court Jester"
+  action_can_hire_court_jester_label: "You can hire a Court Jester"
+  action_can_hire_court_jester_desc: "You are not employing a Court Jester as a [court_position|E], you should hire one for some fun (you are stressed)"
+  action_can_hire_court_jester_click: "#I Click to view#!"
+
+  action_can_hire_seneschal: "Hire a Seneschal"
+  action_can_hire_seneschal_label: "You can hire a Seneschal"
+  action_can_hire_seneschal_desc: "You are not employing a Seneschal as a [court_position|E], you should hire one to increase control level of your lands."
+  action_can_hire_seneschal_click: "#I Click to view#!"

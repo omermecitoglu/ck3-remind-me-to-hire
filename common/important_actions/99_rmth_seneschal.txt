@@ -1,0 +1,32 @@
+﻿action_can_hire_seneschal = {
+	priority = 297
+	combine_into_one = yes
+	check_create_action = {
+		if = {
+			limit = {
+				NOR = {
+					employs_court_position = seneschal_court_position
+					any_court_position_holder = {
+						type = seneschal_court_position
+					}
+				}
+				monthly_character_income > monthly_character_expenses
+				trigger_if = {
+					any_held_title = {
+						tier = tier_county
+						county_control < 80
+						count > 0
+					}
+				}
+			}
+			try_create_important_action = {
+				important_action_type = action_can_hire_seneschal
+				actor = root
+			}
+		}
+	}
+
+	effect = {
+		open_appoint_court_position_window = seneschal_court_position
+	}
+}
