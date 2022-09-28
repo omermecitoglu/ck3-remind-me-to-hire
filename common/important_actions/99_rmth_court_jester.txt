@@ -4,6 +4,7 @@
 	check_create_action = {
 		if = {
 			limit = {
+				highest_held_title_tier >= tier_kingdom
 				NOR = {
 					employs_court_position = court_jester_court_position
 					any_court_position_holder = {
