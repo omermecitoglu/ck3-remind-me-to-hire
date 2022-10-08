@@ -1,0 +1,13 @@
+﻿l_german:
+  action_can_hire_court_tutor: "Heure einen Hoftutor an"
+  action_can_hire_court_tutor_label: "Du kannst einen Hoftutor anheuern"
+  action_can_hire_court_tutor_desc: "Sie beschäftigen keinen Hoftutor als [court_position|E], Sie sollten einen einstellen, da es in Ihrem Hof Jugendliche gibt, die kurz vor dem Abschluss ihrer Ausbildung stehen."
+  action_can_hire_court_tutor_click: "#I Zum Anzeigen klicken#!"
+  action_can_hire_court_jester: "Einen Hofnarren anstellen"
+  action_can_hire_court_jester_label: "Ihr könnt einen Hofnarren anstellen"
+  action_can_hire_court_jester_desc: "Du beschäftigst keinen Hofnarren als [court_position|E], du solltest einen zum Spaß einstellen (du bist gestresst)"
+  action_can_hire_court_jester_click: "#I Zum Anzeigen klicken#!"
+  action_can_hire_seneschal: "Heure einen Seneschall an"
+  action_can_hire_seneschal_label: "Du kannst einen Seneschall anheuern"
+  action_can_hire_seneschal_desc: "Du beschäftigst keinen Seneschall als [court_position|E], solltest aber einen anheuern, um den Kontrolllevel deines Landes zu erhöhen."
+  action_can_hire_seneschal_click: "#I Zum Anzeigen klicken#!"
