@@ -1,0 +1,28 @@
+﻿action_can_hire_antiquarian = {
+	priority = 296
+	combine_into_one = yes
+	check_create_action = {
+		if = {
+			limit = {
+        any_character_artifact = {
+          count >= 3
+        }
+				NOR = {
+					employs_court_position = antiquarian_court_position
+					any_court_position_holder = {
+						type = antiquarian_court_position
+					}
+				}
+				monthly_character_income > monthly_character_expenses
+			}
+			try_create_important_action = {
+				important_action_type = action_can_hire_antiquarian
+				actor = root
+			}
+		}
+	}
+
+	effect = {
+		open_appoint_court_position_window = antiquarian_court_position
+	}
+}

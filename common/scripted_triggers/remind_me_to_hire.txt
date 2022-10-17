@@ -1,0 +1,13 @@
+﻿can_be_hired_as_a_court_artificer = {
+	is_imprisoned = no
+	NOT = {
+		is_spouse_of = root
+	}
+	OR = {
+		has_completed_inspiration = yes
+		exists = inspiration
+	}
+	NOT = { has_court_position = court_artificer_court_position }
+	# This positions is considered a job, and cannot be held at the same tims as another similar position
+	court_position_does_not_already_have_a_job_trigger = yes
+}

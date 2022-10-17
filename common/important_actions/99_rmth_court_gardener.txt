@@ -1,0 +1,28 @@
+﻿action_can_hire_court_gardener = {
+	priority = 295
+	combine_into_one = yes
+	check_create_action = {
+		if = {
+			limit = {
+				culture = {
+					has_cultural_parameter = can_appoint_court_gardener
+				}
+				NOR = {
+					employs_court_position = court_gardener_court_position
+					any_court_position_holder = {
+						type = court_gardener_court_position
+					}
+				}
+				monthly_character_income > monthly_character_expenses
+			}
+			try_create_important_action = {
+				important_action_type = action_can_hire_court_gardener
+				actor = root
+			}
+		}
+	}
+
+	effect = {
+		open_appoint_court_position_window = court_gardener_court_position
+	}
+}

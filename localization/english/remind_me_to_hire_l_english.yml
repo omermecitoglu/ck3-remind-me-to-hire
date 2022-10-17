@@ -1,15 +1,47 @@
 ﻿l_english:
+  rmth_click_to_view: "Click to view"
+
   action_can_hire_court_tutor: "Hire a Court Tutor"
   action_can_hire_court_tutor_label: "You can hire a Court Tutor"
   action_can_hire_court_tutor_desc: "You are not employing a Court Tutor as a [court_position|E], you should hire one since there are teenagers in your court who are about to complete their education."
-  action_can_hire_court_tutor_click: "#I Click to view#!"
+  action_can_hire_court_tutor_click: "#I $rmth_click_to_view$#!"
 
   action_can_hire_court_jester: "Hire a Court Jester"
   action_can_hire_court_jester_label: "You can hire a Court Jester"
   action_can_hire_court_jester_desc: "You are not employing a Court Jester as a [court_position|E], you should hire one for some fun (you are stressed)"
-  action_can_hire_court_jester_click: "#I Click to view#!"
+  action_can_hire_court_jester_click: "#I $rmth_click_to_view$#!"
 
   action_can_hire_seneschal: "Hire a Seneschal"
   action_can_hire_seneschal_label: "You can hire a Seneschal"
   action_can_hire_seneschal_desc: "You are not employing a Seneschal as a [court_position|E], you should hire one to increase control level of your lands."
-  action_can_hire_seneschal_click: "#I Click to view#!"
+  action_can_hire_seneschal_click: "#I $rmth_click_to_view$#!"
+
+  action_can_hire_antiquarian: "Hire a Antiquarian"
+  action_can_hire_antiquarian_label: "You can hire a Antiquarian"
+  action_can_hire_antiquarian_desc: "You should have an Antiquarian ([court_position|E]) to keep your items maintained."
+  action_can_hire_antiquarian_click: "#I $rmth_click_to_view$#!"
+
+  action_can_hire_court_gardener: "Hire a Court Gardener"
+  action_can_hire_court_gardener_label: "You can hire a Court Gardener"
+  action_can_hire_court_gardener_desc: "You should have a Court Gardener ([court_position|E]) to increase [development|E] growth in your [realm_capital|E]."
+  action_can_hire_court_gardener_click: "#I $rmth_click_to_view$#!"
+
+  action_can_hire_court_artificer: "Hire a Court Artificer"
+  action_can_hire_court_artificer_label: "You can hire a Court Artificer"
+  action_can_hire_court_artificer_desc: "You should hire skilled people in your court as Court Artificer ([court_position|E]) to keep them inspired."
+  action_can_hire_court_artificer_click: "#I $rmth_click_to_view$#!"
+
+  action_can_hire_lady_in_waiting: "Hire a Lady-in-waiting"
+  action_can_hire_lady_in_waiting_label: "You can hire a Lady-in-waiting"
+  action_can_hire_lady_in_waiting_desc: "You should have some company of ladies to deal with stress."
+  action_can_hire_lady_in_waiting_click: "#I $rmth_click_to_view$#!"
+
+  action_can_hire_keeper_of_swans: "Hire a Keeper of the Swans"
+  action_can_hire_keeper_of_swans_label: "You can appoint a Keeper of the Swans"
+  action_can_hire_keeper_of_swans_desc: "You should have a Keeper of the Swans ([court_position|E]) to increase your [diplomacy|E]."
+  action_can_hire_keeper_of_swans_click: "#I $rmth_click_to_view$#!"
+
+  action_can_hire_chief_qadi: "Hire a Chief Qadi"
+  action_can_hire_chief_qadi_label: "You can appoint a Chief Qadi"
+  action_can_hire_chief_qadi_desc: "You should have a Chief Qadi ([court_position|E]) to increase your [learning|E]."
+  action_can_hire_chief_qadi_click: "#I $rmth_click_to_view$#!"

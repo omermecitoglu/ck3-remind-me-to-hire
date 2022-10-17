@@ -1,0 +1,28 @@
+﻿action_can_hire_lady_in_waiting = {
+	priority = 293
+	combine_into_one = yes
+	check_create_action = {
+		if = {
+			limit = {
+				is_female = yes
+				highest_held_title_tier >= tier_kingdom
+				stress_level > 0
+				NOT = {
+					any_court_position_holder = {
+						type = lady_in_waiting_court_position
+						count >= 2
+					}
+				}
+				monthly_character_income > monthly_character_expenses
+			}
+			try_create_important_action = {
+				important_action_type = action_can_hire_lady_in_waiting
+				actor = root
+			}
+		}
+	}
+
+	effect = {
+		open_appoint_court_position_window = lady_in_waiting_court_position
+	}
+}

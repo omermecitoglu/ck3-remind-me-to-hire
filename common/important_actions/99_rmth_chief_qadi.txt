@@ -1,0 +1,27 @@
+﻿action_can_hire_chief_qadi = {
+	priority = 291
+	combine_into_one = yes
+	check_create_action = {
+		if = {
+			limit = {
+				has_religion = religion:islam_religion
+				highest_held_title_tier >= tier_kingdom
+				NOR = {
+					employs_court_position = chief_qadi_court_position
+					any_court_position_holder = {
+						type = chief_qadi_court_position
+					}
+				}
+				monthly_character_income > monthly_character_expenses
+			}
+			try_create_important_action = {
+				important_action_type = action_can_hire_chief_qadi
+				actor = root
+			}
+		}
+	}
+
+	effect = {
+		open_appoint_court_position_window = chief_qadi_court_position
+	}
+}
