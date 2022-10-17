@@ -16,8 +16,8 @@
   action_can_hire_seneschal_desc: "You are not employing a Seneschal as a [court_position|E], you should hire one to increase control level of your lands."
   action_can_hire_seneschal_click: "#I $rmth_click_to_view$#!"
 
-  action_can_hire_antiquarian: "Hire a Antiquarian"
-  action_can_hire_antiquarian_label: "You can hire a Antiquarian"
+  action_can_hire_antiquarian: "Hire an Antiquarian"
+  action_can_hire_antiquarian_label: "You can hire an Antiquarian"
   action_can_hire_antiquarian_desc: "You should have an Antiquarian ([court_position|E]) to keep your items maintained."
   action_can_hire_antiquarian_click: "#I $rmth_click_to_view$#!"
 
